@@ -1,6 +1,6 @@
 {
   "name": "@lydio/sitemapxml",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A structured and fluent API for generating XML sitemaps in JavaScript. Supports multiple URLs, sitemap indexes, last modified dates, priorities, and change frequencies with an expressive syntax.",
   "main": "./src/index.mjs",
   "type": "module",

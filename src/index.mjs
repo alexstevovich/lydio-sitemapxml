@@ -26,9 +26,9 @@ ${urlsXml}
 </urlset>`;
     }
 
-    writeSitemapXml(filePath, options = {}) {
+    async writeSitemapXml(filePath, options = {}) {
         const xmlContent = this.toSitemapXml(options);
-        fs.writeFileSync(filePath, xmlContent);
+        await fs.promises.writeFile(filePath, xmlContent);
     }
 }
 
