@@ -1,0 +1,33 @@
+{
+  "name": "@lydio/sitemapxml",
+  "version": "1.0.0",
+  "description": "A structured and fluent API for generating XML sitemaps in JavaScript. Supports multiple URLs, sitemap indexes, last modified dates, priorities, and change frequencies with an expressive syntax.",
+  "main": "./src/index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "node test/lydio-sitemapxml.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexstevovich/lydio-sitemapxml.git"
+  },
+  "author": "Alex Stevovich",
+  "license": "MIT",
+  "keywords": [
+    "sitemap",
+    "sitemap.xml",
+    "seo",
+    "search-engines",
+    "crawler",
+    "fluent-api",
+    "javascript",
+    "web",
+    "lydio",
+    "automation",
+    "web-indexing",
+    "site-map",
+    "xml-sitemap",
+    "sitemap-generator",
+    "web-crawling"
+  ]
+}
